@@ -1,0 +1,104 @@
+.badge{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+
+    &.badge{
+       
+        &-gray-100{
+            padding: torem(2) torem(10);
+            border-radius: torem(16);    
+            background-color: $erp-gray-100;
+        }
+
+        &-gray-200{
+            padding: torem(6) torem(10);
+            border-radius: torem(8);
+            background-color: $erp-gray-200;
+        }
+
+        &-error-500{
+            padding: torem(6) torem(10);
+            border-radius: torem(16);
+            background-color: $error-500;
+
+            i{
+                color: white;
+            }
+        }
+
+        &-error-600{
+            border-radius: torem(16);
+            background-color: $error-600;
+        }
+    }
+
+    &.badge-hours{
+        border-radius: torem(16);
+        padding: torem(2) torem(8);
+        
+        &-gray-100{
+            background-color: $erp-gray-100;
+        }
+    }
+   
+    &.badge-status{
+        border-radius: torem(8);
+        padding: torem(4) torem(8);
+
+        &-success-300{
+            background-color: $success-300;
+        }
+
+        &-yellow-300{
+            background-color: $yellow-300;
+        }
+
+        &-pink-300{
+            background-color: $pink-300;
+        }
+
+        &-primary-300{
+            background-color: $primary-300;
+        }
+    }
+
+    
+    &.badge-client{
+        border-radius: torem(16);
+        padding: torem(2) torem(8) torem(2) torem(6);
+
+        &-blue-50{
+            background-color: $blue-50;
+
+            div{
+                background-color: $blue-500;
+            }
+        }
+        
+        &-green-light-50{
+            background-color: $green-light-50;
+
+            div{
+                background-color: $green-light-500;
+            }
+        }
+
+        &-teal-50{
+            background-color: $teal-50;
+
+            div{
+                background-color: $teal-500;
+            }
+        }
+
+        &-pink-50{
+            background-color: $pink-50;
+
+            div{
+                background-color: $pink-500;
+            }
+        }
+    }
+}

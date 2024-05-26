@@ -1,0 +1,115 @@
+.border-bottom{
+    border-bottom-width: $border-width;
+    border-bottom-style: $border-style;
+   
+    &.gray{
+        border-color: $erp-gray-200;
+
+        &.padding-top-bottom-12{
+            padding: torem(12) torem(0);
+        }
+
+        &.padding-top-bottom-left-18{
+            padding: 18px 0px 18px 30px;
+        }
+    }
+    
+}
+
+.border-left{
+    border-left-width: $border-width;
+    border-left-style: $border-style;
+
+    &.gray{
+        border-color: $erp-gray-200;
+    }
+}
+
+.border-right{
+    border-left-width: $border-width;
+    border-left-style: $border-style;
+
+    &.gray{
+        border-color: $erp-gray-200;
+    }
+}
+
+.card-container{
+    height: 100%;
+    box-shadow: torem(0) torem(2) torem(4) rgba(0, 0, 0, 0.2);
+    border-radius: torem(8);
+    margin-left: torem(20);
+    margin-right: torem(20);
+    margin-bottom: torem(30);
+}
+
+.square-div{
+
+    &-xs{
+        width: torem(24);
+        height: torem(2);
+        border-radius: torem(6);
+    }
+
+    &-md{
+        width: torem(40);
+        height: torem(40);
+        border-radius: torem(8);
+    }
+
+    &-lg{
+        padding: torem(8) torem(15);
+        border-radius: torem(8);
+
+        &.border{
+            border-color: $erp-gray-300;
+            border-width: $border-width;
+            border-style: $border-style;
+        }
+       
+    }
+
+}
+
+.circle-div{
+
+    &-xs{
+        width: torem(6);
+        height: torem(6);
+        border-radius: 50%;
+    }
+
+    &-sm{
+        width: torem(8);
+        height: torem(8);
+        border-radius: 50%;
+    }   
+   
+}
+
+.music-container{
+    padding: 12px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 17% 44% 8% 11% 13% 7%;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: torem(20);
+}
+
+.search-container{
+    position: relative;
+
+    i{
+        position: absolute;
+        left: 3%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: torem(20);
+    }
+}
